@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Dados do Roadmap",
+      "elements": [
+        {
+          "id": "issueKey",
+          "label": "Chave",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "issueType",
+          "label": "Tipo",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "summary",
+          "label": "Resumo",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "assignee",
+          "label": "Responsável",
+          "type": "DIMENSION",
+          "options": { "min": 0, "max": 1 }
+        },
+        {
+          "id": "status",
+          "label": "Status",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "startDate",
+          "label": "Início",
+          "type": "DIMENSION",
+          "options": { "min": 0, "max": 1 }
+        },
+        {
+          "id": "endDate",
+          "label": "Fim",
+          "type": "DIMENSION",
+          "options": { "min": 0, "max": 1 }
+        },
+        {
+          "id": "duration",
+          "label": "Duração (dias)",
+          "type": "METRIC",
+          "options": { "min": 0, "max": 1 }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "general",
+      "label": "Geral",
+      "elements": [
+        {
+          "id": "barHeight",
+          "label": "Altura das barras de épico (px)",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "18",
+          "options": [
+            { "label": "Compacto (14px)",  "value": "14" },
+            { "label": "Normal (18px)",    "value": "18" },
+            { "label": "Espaçoso (24px)", "value": "24" }
+          ]
+        },
+        {
+          "id": "monthWidth",
+          "label": "Largura de cada mês (px)",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "70",
+          "options": [
+            { "label": "Estreito (50px)", "value": "50" },
+            { "label": "Normal (70px)",   "value": "70" },
+            { "label": "Largo (100px)",   "value": "100" }
+          ]
+        },
+        {
+          "id": "showChildBars",
+          "label": "Mostrar barras das issues filhas",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "darkMode",
+          "label": "Tema escuro",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "onClick",
+      "supportedActions": ["FILTER"]
+    }
+  ]
+}

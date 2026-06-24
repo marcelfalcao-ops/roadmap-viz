@@ -1,0 +1,24 @@
+{
+  "name": "Epic Roadmap Gantt",
+  "organization": "CI&T",
+  "description": "Gantt chart interativo com épicos expansíveis. Conecta à aba Roadmap gerada pelo script JIRA.",
+  "logoUrl": "https://raw.githubusercontent.com/SEU-USUARIO/roadmap-viz/main/dist/logo.png",
+  "devMode": false,
+  "packageUrl": "https://SEU-USUARIO.github.io/roadmap-viz/",
+  "supportUrl": "",
+  "privacyPolicyUrl": "",
+  "termsOfServiceUrl": "",
+  "components": [
+    {
+      "id": "epicroadmap",
+      "name": "Epic Roadmap Gantt",
+      "description": "Gantt com épicos e issues filhas expansíveis",
+      "iconUrl": "https://raw.githubusercontent.com/SEU-USUARIO/roadmap-viz/main/dist/logo.png",
+      "resource": {
+        "js": "https://SEU-USUARIO.github.io/roadmap-viz/index.js",
+        "config": "https://SEU-USUARIO.github.io/roadmap-viz/vizConfig.json",
+        "css": "https://SEU-USUARIO.github.io/roadmap-viz/index.css"
+      }
+    }
+  ]
+}
